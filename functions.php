@@ -1,3 +1,5 @@
+<?php
+
 // Fix for csv being detected as text/html when importing products
 
 add_filter( 'wp_check_filetype_and_ext', function( $result, $file, $filename, $mimes, $real_mime ) {
